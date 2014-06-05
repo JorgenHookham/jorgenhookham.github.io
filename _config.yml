@@ -1,0 +1,10 @@
+# Site settings
+title: Front-End Exposed
+email: Jorgen@Hookham.co
+description: "Technology and design articles for front-end folks"
+baseurl: ""
+url: "http://frontend.exposed"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
