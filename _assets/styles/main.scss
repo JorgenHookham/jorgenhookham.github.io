@@ -1,0 +1,13 @@
+@import
+    'normalize',
+    'foundation';
+
+.fe-logo {
+    display: block;
+    width: 32rem; height: 4rem;
+
+    background: url(../images/logo.svg) center center no-repeat;
+    background-size: fit;
+
+    font-size: 0;
+}

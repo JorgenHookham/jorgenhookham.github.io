@@ -1,4 +1,5 @@
 _site
+_assets/vendor
 node_modules
 *.sublime-project
 *.sublime-workspace

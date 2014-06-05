@@ -8,3 +8,5 @@ url: "http://frontend.exposed"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude: ['Gruntfile.coffee', 'node_modules']
