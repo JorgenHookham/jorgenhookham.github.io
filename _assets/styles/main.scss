@@ -11,3 +11,20 @@
 
     font-size: 0;
 }
+
+.post-content,
+.post-header,
+.post-header > h1 {
+    font-family:"Access Light", sans-serif; font-weight:200; font-style:normal;
+    font-family:"Academy Sans Light", serif; font-weight:200; font-style:normal;
+    font-family:"Battersea Thin", Arial, sans-serif; font-weight:100; font-style:normal;
+}
+
+.post-content > p {
+    font-size: 1.125em;
+}
+
+.post-content > p:first-of-type {
+    font-size: 1.25em;
+    line-height: 1.32;
+}

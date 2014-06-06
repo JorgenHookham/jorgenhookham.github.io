@@ -17,6 +17,14 @@ module.exports = (grunt) ->
                     ext: '.css'
                     expand: true
                 }]
+            serve:
+                files: [{
+                    cwd: '_assets/styles'
+                    dest: '_site/assets/css'
+                    src: ['**/*.{scss,sass}', '!**/_*']
+                    ext: '.css'
+                    expand: true
+                }]
 
         # todo: inline svg to stylesheets
         svgmin:
@@ -54,6 +62,9 @@ module.exports = (grunt) ->
 
         # todo: setup useful watch
         watch:
+            sass:
+                files: ['_assets/styles/**/*.{scss,sass}']
+                tasks: ['sass:serve']
             jekyll:
                 files: ['templates/*.html']
                 tasks: ['jekyll:dev']
