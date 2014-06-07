@@ -5180,6 +5180,144 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+.battersea-thin {
+  font-family: "Battersea Thin", Arial, sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.battersea-thin-italic {
+  font-family: "Battersea Thin Italic", Arial, sans-serif;
+  font-weight: 100;
+  font-style: italic; }
+
+.battersea-light {
+  font-family: "Battersea Light", Arial, sans-serif;
+  font-weight: 200;
+  font-style: normal; }
+
+.battersea-light-italic {
+  font-family: "Battersea Light Italic", Arial, sans-serif;
+  font-weight: 200;
+  font-style: italic; }
+
+.battersea-regular, body {
+  font-family: "Battersea Regular", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal; }
+
+.battersea-italic {
+  font-family: "Battersea Italic", Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic; }
+
+.access-light {
+  font-family: "Access Light", sans-serif;
+  font-weight: 200;
+  font-style: normal; }
+
+.access-italic {
+  font-family: "Access Italic", sans-serif;
+  font-weight: normal;
+  font-style: italic; }
+
+.access-book {
+  font-family: "Access Book", sans-serif;
+  font-weight: 300;
+  font-style: normal; }
+
+.access-light {
+  font-family: "Access Light", sans-serif;
+  font-weight: 200;
+  font-style: normal; }
+
+.access-regular {
+  font-family: "Access Regular", sans-serif;
+  font-weight: normal;
+  font-style: normal; }
+
+.access-access-caps {
+  font-family: "Access Access Caps", sans-serif;
+  font-weight: normal;
+  font-style: normal; }
+
+.academy-sans-light {
+  font-family: "Academy Sans Light", serif;
+  font-weight: 200;
+  font-style: normal; }
+
+.republic-ultra-light {
+  font-family: "Republic Ultra Light", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.republic-ultra-light-italic {
+  font-family: "Republic Ultra Light Italic", sans-serif;
+  font-weight: 100;
+  font-style: italic; }
+
+.republic-light {
+  font-family: "Republic Light", sans-serif;
+  font-size-adjust: 0.49;
+  font-weight: 200;
+  font-style: normal; }
+
+.republic-light-italic {
+  font-family: "Republic Light Italic", sans-serif;
+  font-weight: 200;
+  font-style: italic; }
+
+.republic-regular {
+  font-family: "Republic Regular", sans-serif;
+  font-size-adjust: 0.5;
+  font-weight: normal;
+  font-style: normal; }
+
+.republic-italic {
+  font-family: "Republic Italic", sans-serif;
+  font-size-adjust: 0.5;
+  font-weight: normal;
+  font-style: italic; }
+
+.republic-demi-bold {
+  font-family: "Republic Demi Bold", sans-serif;
+  font-weight: 600;
+  font-style: normal; }
+
+.republic-demi-bold-italic {
+  font-family: "Republic Demi Bold Italic", sans-serif;
+  font-weight: 600;
+  font-style: italic; }
+
+.republic-medium {
+  font-family: "Republic Medium", sans-serif;
+  font-weight: 500;
+  font-style: normal; }
+
+.republic-medium-italic {
+  font-family: "Republic Medium Italic", sans-serif;
+  font-weight: 500;
+  font-style: italic; }
+
+
+
+.post-meta {
+  color: #adadad; }
+
+.post-meta > dd {
+  font-family: "Battersea Thin Italic", Arial, sans-serif;
+  font-weight: 100;
+  font-style: italic; }
+
+.meta > dt, .meta > dd {
+  display: inline-block; }
+
+.post-content > p {
+  font-size: 1.125em; }
+
+.post-content > p:first-of-type {
+  font-size: 1.25em;
+  line-height: 1.32; }
+
 .fe-logo {
   display: block;
   width: 32rem;
@@ -5188,20 +5326,3 @@ th.hide-for-touch {
   background-size: fit;
   font-size: 0; }
 
-.post-content, .post-header, .post-header > h1 {
-  font-family: "Access Light", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-family: "Academy Sans Light", serif;
-  font-weight: 200;
-  font-style: normal;
-  font-family: "Battersea Thin", Arial, sans-serif;
-  font-weight: 100;
-  font-style: normal; }
-
-.post-content > p {
-  font-size: 1.125em; }
-
-.post-content > p:first-of-type {
-  font-size: 1.25em;
-  line-height: 1.32; }
