@@ -66,8 +66,8 @@ module.exports = (grunt) ->
                 files: ['_assets/styles/**/*.{scss,sass}']
                 tasks: ['sass:serve']
             jekyll:
-                files: ['templates/*.html']
-                tasks: ['jekyll:dev']
+                files: ['_layouts/**/*.html', '_includes/**/*.html', '_posts/**/*.{md,markdown}', '_drafts/**/*.{md,markdown}']
+                tasks: ['jekyll:serve']
 
     }
 

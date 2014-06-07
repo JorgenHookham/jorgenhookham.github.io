@@ -1,19 +1,8 @@
 <header class="row">
     <div class="large-12 columns">
-        <div class="nav-bar right">
-            <ul class="button-group">
-                {% for page in site.pages %}
-                    {% if page.title %}
-                        <li>
-                            <a href="{{ page.url | prepend: site.baseurl }}" class="button">{{ page.title }}</a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
         <h1>
             <a href="/" class="fe-logo">{{ site.title }}</a>
         </h1>
-        <hr/>
+        <hr class="fe-header-hr">
     </div>
 </header>

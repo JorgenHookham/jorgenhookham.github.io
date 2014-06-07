@@ -5434,7 +5434,12 @@ th.hide-for-touch {
   display: block;
   width: 32rem;
   height: 4rem;
+  margin: 4rem auto 2rem;
   background: url(../images/logo.svg) center center no-repeat;
   background-size: fit;
   font-size: 0; }
+
+.fe-header-hr {
+  width: 12em;
+  margin: 0 auto 4em; }
 
