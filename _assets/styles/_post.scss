@@ -1,11 +1,16 @@
+@import 'font-deck';
+
 .post-header {}
 .post-title {}
-.post-meta { color: hsl(0, 0%, 68%); }
-.post-meta > dd {
-    font-family:"Battersea Thin Italic", Arial, sans-serif; font-weight:100; font-style:italic;
+
+.post-meta {
+    color: hsl(0, 0%, 68%);
+
+    > dt { @extend .republic-regular; }
+    > dd { @extend .republic-medium-italic; }
+
+    > dt, > dd { display: inline-block; }
 }
-.meta > dt,
-.meta > dd { display: inline-block; }
 
 .post-content > p {
     font-size: 1.125em;
